@@ -1,0 +1,40 @@
+    .label-h1{
+    -fx-font-size: 32px;
+}
+
+
+
+.background-right-side_selectionScreen{
+
+}
+
+.startMenu-background {
+    -fx-background-image: url('../images/bgmenu.png');
+    -fx-background-size: cover;
+}
+
+.classroom-background-selection {
+    -fx-background-image: url('../images/StartMenu.jpeg');
+    -fx-background-size: cover;
+}
+.f1Motorsport-background-selection {
+    -fx-background-image: url('../images/bgmenu.png');
+    -fx-background-size: cover;
+}
+    .label-startMenu {
+        -fx-effect: dropshadow(gaussian, rgb(178, 46, 225), 5, 0, 5,5);
+        -fx-font-size: 60px;
+        -fx-text-fill: white;
+
+    }
+.btn{
+    -fx-background-color: rgb(168, 0, 220);
+    -fx-font-family:gaussian;
+    -fx-font-size:20px ;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0), 0.5, 0, 3,3);
+}
+.btn:hover{
+    -fx-background-color: rgb(144, 2, 189);
+}
